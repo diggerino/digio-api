@@ -1,0 +1,27 @@
+{
+  "name": "digio-api",
+  "version": "0.0.0",
+  "description": "DigitalOcean API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmn/digio-api.git"
+  },
+  "keywords": [
+    "do",
+    "digitalocean",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmn/digio-api/issues"
+  },
+  "homepage": "https://github.com/tmn/digio-api",
+  "dependencies": {
+    "request": "2.39.0"
+  }
+}
