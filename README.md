@@ -73,6 +73,8 @@ droplets.restore(<droplet_id>, <image_id>, callback)
 droplets.shutdown(<droplet_id>, callback)
 droplets.snapshot(<droplet_id>, <name>, callback)
 
+extras.rate(callback)   // Returns a custom object with RateLimit information
+
 images.delete(<image_id>, callback)
 images.get(<image_id>, callback)
 images.get_action(<image_id>, <action_id>, callback)
