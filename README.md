@@ -1,6 +1,8 @@
 digio-api
 =========
 
+[!NPM module](https://img.shields.io/npm/v/digio-api.png)](https://www.npmjs/package/digio-api)
+
 ## Installation
 ```
 npm install digio-api
