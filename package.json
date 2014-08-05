@@ -1,6 +1,6 @@
 {
   "name": "digio-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DigitalOcean API",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
   },
   "keywords": [
     "digitalocean",
+    "Digital Ocean",
+    "wrapper",
+    "api v2.0",
+    "v2.0",
     "do",
     "api"
   ],
