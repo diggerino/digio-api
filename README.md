@@ -11,11 +11,27 @@ npm install digio-api
 var api = require('digio-api')('<access_token>')
 
 api.droplets.list(function (err, data) {
-  console.log('Droplets: ', data);
+  if (err) return console.error('Error: ' + err.message)
+  console.log(data);
 })
 ```
 
+```javascript
+var digio_api = require('digio-api')
+
+var api = new digio_api('<access_token>')
+
+api.domains.create('example.com', '127.0.0.1', function (err, data) {
+  if (err) return console.error('Error: ' + err.message)
+  console.log('Success: ' + data.domain.name + ' created.')
+}
+```
+
 ## Methods
+
+For detailed description and requirements of the function arguments, see the official
+DigitalOcean API v2.0 documentation at https://developers.digitalocean.com/
+
 ```javascript
 actions.get(<action_id>, callback)
 actions.list(callback)
