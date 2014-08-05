@@ -11,11 +11,23 @@
     "url": "https://github.com/tmn/digio-api.git"
   },
   "keywords": [
-    "do",
     "digitalocean",
+    "do",
     "api"
   ],
   "author": "Tri M. Nguyen & Aleksander Skraastad",
+  "contributors": [
+    {
+      "name" : "Tri M. Nguyen",
+      "email" : "mail@trimn.net",
+      "url" : "http://tmn.io/"
+    },
+    {
+      "name" : "Aleksander Skraastad",
+      "email" : "aleks@overflow.no",
+      "url" : "http://overflow.no/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tmn/digio-api/issues"
