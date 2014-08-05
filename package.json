@@ -15,7 +15,7 @@
     "digitalocean",
     "api"
   ],
-  "author": "",
+  "author": "Tri M. Nguyen & Aleksander Skraastad",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tmn/digio-api/issues"
