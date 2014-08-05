@@ -88,3 +88,7 @@ regions.list(callback)
 
 sizes.list(callback)
 ```
+
+## Licence
+
+MIT © [Tri M. Nguyen](http://tmn.io) & [Aleksander Skraastad](https://overflow.no)
