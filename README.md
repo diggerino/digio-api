@@ -24,7 +24,7 @@ var api = new digio_api('<access_token>')
 api.domains.create('example.com', '127.0.0.1', function (err, data) {
   if (err) return console.error('Error: ' + err.message)
   console.log('Success: ' + data.domain.name + ' created.')
-}
+})
 ```
 
 ## Methods
