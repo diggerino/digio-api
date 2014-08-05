@@ -16,7 +16,7 @@ api.droplets.list(function (err, data) {
 ```
 
 ## Methods
-```
+```javascript
 actions.get(<action_id>, callback)
 actions.list(callback)
 
@@ -24,12 +24,11 @@ domains.create(<domain>, <ip>, callback)
 domains.delete(<domain>, callback)
 domains.get(<domain>, callback)
 domains.list(callback)
-
-domain_records.create(<domain>, <ip>, <type>, callback)
-domain_records.delete(<domain>, <record>, callback)
-domain_records.get(<domain>, <record>, callback)
-domain_records.list(<domain>, callback)
-domain_records.update(<domain>, <record>, <new_name>, callback)
+domains.create_record(<domain>, <ip>, <type>, callback)
+domains.delete_record(<domain>, <record>, callback)
+domains.get_record(<domain>, <record>, callback)
+domains.list_records(<domain>, callback)
+domains.update_record(<domain>, <record>, <new_name>, callback)
 
 droplets.create(<name>, <region>, <size>, <image>, <ssh_keys>, <backups>, <ipv6>, <private_networking>, callback)
 droplets.delete(<droplet_id>, callback)
