@@ -1,7 +1,7 @@
 {
   "name": "digio-api",
-  "version": "0.1.3",
-  "description": "DigitalOcean API",
+  "version": "0.1.4",
+  "description": "digio-api is a DigitalOcean v2.0 API library that exposes all DigitalOcean v2.0 API methods in a simple and orderly fashion. digio-api is continuously updated, thus enabling you to take advantage of the most recent additions to the API in your application.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
