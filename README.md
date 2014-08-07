@@ -93,6 +93,24 @@ regions.list(callback)
 sizes.list(callback)
 ```
 
+## Changelog
+
+# 0.1.4
+Fixed a bug causing the JSON parser to throw a syntax error when a HTTP 20x
+no-content response was recieved.
+
+# 0.1.3
+Added extras module which exposes RateLimit information
+
+# 0.1.2
+Correct typos and expand readme
+
+# 0.1.1
+Bug fixes, structural changes
+
+# 0.1.0
+First release
+
 ## Licence
 
 MIT © [Tri M. Nguyen](http://tmn.io) & [Aleksander Skraastad](https://overflow.no)
