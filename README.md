@@ -96,24 +96,23 @@ sizes.list(callback)
 ## Changelog
 
 #### 0.1.5
-Fixed an undefined argument in create domain record function
-Fixed missing parameters in create domain record function
+* Fixed an undefined argument in create domain record function.
+* Fixed missing parameters in create domain record function.
 
 #### 0.1.4
-Fixed a bug causing the JSON parser to throw a syntax error when a HTTP 20x
-no-content response was recieved.
+* Fixed a bug causing the JSON parser to throw a syntax error when a HTTP 20x no-content response was recieved.
 
 #### 0.1.3
-Added extras module which exposes RateLimit information
+* Added extras module which exposes RateLimit information.
 
 #### 0.1.2
-Correct typos and expand readme
+* Correct typos and expand readme.
 
 #### 0.1.1
-Bug fixes, structural changes
+* Bug fixes, structural changes.
 
 #### 0.1.0
-First release
+* First release.
 
 ## Licence
 
