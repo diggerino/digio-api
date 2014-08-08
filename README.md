@@ -95,6 +95,9 @@ sizes.list(callback)
 
 ## Changelog
 
+#### 0.1.5
+Fixed an undefined argument in create domain record function
+
 #### 0.1.4
 Fixed a bug causing the JSON parser to throw a syntax error when a HTTP 20x
 no-content response was recieved.
