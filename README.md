@@ -95,6 +95,10 @@ sizes.list(callback)
 
 ## Changelog
 
+#### 0.1.6
+* Fixed an incorrect post field in droplet rebuild command
+* FIxed an incorrect post field in droplet restore command
+
 #### 0.1.5
 * Fixed an undefined argument in create domain record function.
 * Fixed missing parameters in create domain record function.
