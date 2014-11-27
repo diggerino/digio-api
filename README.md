@@ -95,29 +95,19 @@ sizes.list(callback)
 
 ## Changelog
 
-#### 0.1.6
-* Fixed an incorrect post field in droplet rebuild command
-* FIxed an incorrect post field in droplet restore command
+#### 0.1.7
+* Use request built in JSON parsing, https://github.com/tmn/digio-api/pull/1 - thanks ablankenship10
 
-#### 0.1.5
-* Fixed an undefined argument in create domain record function.
-* Fixed missing parameters in create domain record function.
-
-#### 0.1.4
-* Fixed a bug causing the JSON parser to throw a syntax error when a HTTP 20x no-content response was recieved.
-
-#### 0.1.3
-* Added extras module which exposes RateLimit information.
-
-#### 0.1.2
-* Correct typos and expand readme.
-
-#### 0.1.1
-* Bug fixes, structural changes.
-
-#### 0.1.0
-* First release.
+[View past release notes](https://github.com/tmn/digio-api/wiki/Release-notes)
 
 ## Licence
 
-MIT © [Tri M. Nguyen](http://tmn.io) & [Aleksander Skraastad](https://overflow.no)
+The MIT License (MIT)
+
+Copyright (c) 2014 [Tri M. Nguyen](http://tmn.io) & [Aleksander Skraastad](https://overflow.no)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
