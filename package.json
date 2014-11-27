@@ -1,6 +1,6 @@
 {
   "name": "digio-api",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "digio-api is a DigitalOcean v2.0 API library that exposes all DigitalOcean v2.0 API methods in a simple and orderly fashion.",
   "main": "index.js",
   "scripts": {
