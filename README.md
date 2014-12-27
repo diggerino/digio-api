@@ -95,8 +95,8 @@ sizes.list(callback)
 
 ## Changelog
 
-#### 0.1.7
-* Use request built in JSON parsing, https://github.com/tmn/digio-api/pull/1 - thanks ablankenship10
+#### 0.1.8
+* Fix: Support API returning undefined body on Droplet Destroy, https://github.com/tmn/digio-api/pull/2
 
 [View past release notes](https://github.com/tmn/digio-api/wiki/Release-notes)
 
