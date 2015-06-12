@@ -12,10 +12,11 @@ npm install digio-api
 ```javascript
 var api = require('digio-api')('<access_token>')
 
-api.droplets.list(function (err, data) {
-  if (err) return console.error('Error: ' + err.message)
-  console.log(data);
-})
+api.droplets.list()
+    .do(function (err, data) {
+      if (err) return console.error('Error: ' + err.message)
+      console.log(data);
+    })
 ```
 
 ```javascript
